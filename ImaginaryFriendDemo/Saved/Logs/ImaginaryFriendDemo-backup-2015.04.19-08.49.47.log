@@ -1,0 +1,553 @@
+﻿Log file open, 04/19/15 08:42:26
+LogInit:Display: Running engine for game: ImaginaryFriendDemo
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.19-13.42.26:253][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.19-13.42.26:303][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.19-13.42.26:313][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.19-13.42.26:321][  0]LogInit: Object subsystem initialized
+[2015.04.19-13.42.26:323][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.19-13.42.26:323][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Unreal/Projects/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.19-13.42.26:323][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.19-13.42.26:323][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Unreal/Projects/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.19-13.42.26:323][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.19-13.42.26:323][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Unreal/Projects/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.19-13.42.26:323][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.19-13.42.26:323][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.19-13.42.26:327][  0]LogInit: Computer: COMPY
+[2015.04.19-13.42.26:327][  0]LogInit: User: Nick
+[2015.04.19-13.42.26:327][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.19-13.42.26:327][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2015.04.19-13.42.26:327][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.04.19-13.42.26:327][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.19-13.42.26:327][  0]LogMemory: Process Physical Memory: 45.93 MB used, 45.93 MB peak
+[2015.04.19-13.42.26:327][  0]LogMemory: Process Virtual Memory: 26.23 MB used, 26.23 MB peak
+[2015.04.19-13.42.26:327][  0]LogMemory: Physical Memory: 3633.38 MB used, 16259.70 MB total
+[2015.04.19-13.42.26:327][  0]LogMemory: Virtual Memory: 285.90 MB used, 134217728.00 MB total
+[2015.04.19-13.42.26:340][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7900 Series (Feature Level 11_0)
+[2015.04.19-13.42.26:340][  0]LogD3D11RHI: Adapter has 3051MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.04.19-13.42.26:345][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.19-13.42.26:345][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.04.19-13.42.26:346][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.19-13.42.26:346][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.19-13.42.26:346][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.19-13.42.26:349][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.19-13.42.26:353][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.19-13.42.26:402][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.19-13.42.26:447][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.19-13.42.26:447][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.19-13.42.26:511][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.19-13.42.29:774][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.19-13.42.31:451][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.19-13.42.31:492][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.19-13.42.31:531][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.19-13.42.31:531][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.19-13.42.31:531][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/ImaginaryFriendDemo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.19-13.42.31:531][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.19-13.42.31:623][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.19-13.42.31:636][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.19-13.42.31:847][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.19-13.42.31:847][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.19-13.42.32:134][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.19-13.42.32:184][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.19-13.42.32:762][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.19-13.42.32:920][  0]SourceControl: Info Source control is disabled
+[2015.04.19-13.42.32:920][  0]SourceControl: Info Source control is disabled
+[2015.04.19-13.42.32:920][  0]SourceControl: Info Source control is disabled
+[2015.04.19-13.42.32:920][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.19-13.42.32:920][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.19-13.42.32:926][  0]SourceControl: Info Source control is disabled
+[2015.04.19-13.42.33:058][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.19-13.42.33:058][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.04.19-13.42.33:120][  0]LogEngine: Initializing Engine...
+[2015.04.19-13.42.35:247][  0]LogInit: XAudio2 using 'Line Out (4- Scarlett 2i2 USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.19-13.42.35:250][  0]LogInit: FAudioDevice initialized.
+[2015.04.19-13.42.35:274][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.19-13.42.35:295][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.19-13.42.35:298][  0]LogInit: Texture streaming: Enabled
+[2015.04.19-13.42.35:360][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.19-13.42.35:360][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.19-13.42.35:360][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.19-13.42.35:360][  0]LogAnalytics: SetUserId ae2fd81d40e74e933ac176aa65f19d69|a11a1d6788b14be38425ce267983457b|5433b200-1896-4b41-b217-14931c041df8
+[2015.04.19-13.42.35:360][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.19-13.42.35:374][  0]LogInit: Transaction tracking system initialized
+[2015.04.19-13.42.35:492][  0]BlueprintLog: New page: Editor Load
+[2015.04.19-13.42.35:518][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2015.04.19-13.42.35:518][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.19-13.42.37:097][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.19-13.42.38:581][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.19-13.42.38:757][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.19-13.42.38:758][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.19-13.42.38:761][  0]LogConsoleResponse:Display: 
+[2015.04.19-13.42.38:850][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.19-13.42.38:941][  0]SourceControl: Info Source control is disabled
+[2015.04.19-13.42.38:941][  0]Cmd: MAP LOAD FILE="../../../../../Projects/ImaginaryFriendDemo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.19-13.42.38:942][  0]LightingResults: New page: Lighting Build
+[2015.04.19-13.42.38:954][  0]MapCheck: New page: Map Check
+[2015.04.19-13.42.38:954][  0]LightingResults: New page: Lighting Build
+[2015.04.19-13.42.38:959][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E22C52520
+[2015.04.19-13.42.42:444][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.19-13.42.43:330][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage AM_Player_Death does not match the length stored in the asset, please resave the montage asset.
+[2015.04.19-13.42.43:332][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage AM_Player_Sprint_Attack does not match the length stored in the asset, please resave the montage asset.
+[2015.04.19-13.42.43:426][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:426][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:426][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:426][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:426][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:426][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:426][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:426][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:427][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:427][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:428][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:428][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:428][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:428][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:428][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:428][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:432][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:432][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:432][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:432][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:432][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:432][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:433][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:433][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:438][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:438][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:438][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:438][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.42.43:441][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.19-13.42.44:245][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.19-13.42.44:246][  0]Cmd: MAP CHECKDEP
+[2015.04.19-13.42.44:246][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 19, 2015, 3:42:44 AM
+[2015.04.19-13.42.44:349][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.96ms to complete.
+[2015.04.19-13.42.44:349][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.407
+[2015.04.19-13.42.44:481][  0]LogCollectionManager: Loaded 0 collections in 0.001054 seconds
+[2015.04.19-13.42.44:487][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 1696 classes and 261 folders.
+[2015.04.19-13.42.44:503][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.19-13.42.44:512][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2015.04.19-13.42.44:589][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.19-13.42.44:590][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.19-13.42.44:593][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.19-13.42.44:618][  0]LogLoad: Full Startup: 20.01 seconds (BP compile: 2.13 seconds)
+[2015.04.19-13.42.45:058][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:058][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:058][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:059][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.19-13.42.45:096][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.19-13.42.45:254][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x584 (Frame:5).
+[2015.04.19-13.42.46:420][  4]LogAssetRegistry: Asset discovery search completed in 10.9133 seconds
+[2015.04.19-13.43.02:381][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.19-13.43.02:382][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.19-13.43.02:382][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.04.19-13.43.02:382][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0__F50812FA) Not registered. Aborting.
+[2015.04.19-13.43.19:915][213]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.BP_Player_Character_Pawn_Enemy_C:UserConstructionScript; removing parent information, but keeping function
+[2015.04.19-13.43.19:994][213]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_BP_Player_Character_Pawn_Child_Enemy_C' or package '/Game/Blueprints/Game/BP_Player_Character_Pawn_Child_Enemy'.
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:994][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:995][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:998][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.19:999][213]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.19-13.43.20:050][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.19-13.43.20:050][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.04.19-13.43.20:050][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0__F50812FA) Not registered. Aborting.
+[2015.04.19-13.47.28:524][546]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.04.19-13.47.29:330][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.19-13.47.34:067][150]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.19-13.47.34:067][150]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 19, 2015, 3:47:34 AM)
+[2015.04.19-13.47.34:086][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018230s)
+[2015.04.19-13.47.34:086][150]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2015.04.19-13.47.34:087][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019234s)
+[2015.04.19-13.47.34:194][150]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.19-13.47.34:197][150]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.19-13.47.34:204][150]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.19-08.47.34
+[2015.04.19-13.47.34:207][150]LogWorld: Bringing up level for play took: 0.010395
+[2015.04.19-13.47.34:210][150]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.95
+[2015.04.19-13.47.50:938][991]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.19-13.47.50:938][991]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.04.19-13.47.50:939][991]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0__F50812FA) Not registered. Aborting.
+[2015.04.19-13.47.50:939][991]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.04.19-13.47.50:939][991]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.04.19-13.47.50:949][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E2ADC5D00
+[2015.04.19-13.47.52:168][120]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.19-13.47.52:168][120]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 19, 2015, 3:47:52 AM)
+[2015.04.19-13.47.52:183][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015170s)
+[2015.04.19-13.47.52:184][120]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2015.04.19-13.47.52:184][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016049s)
+[2015.04.19-13.47.52:221][120]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.19-13.47.52:223][120]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.19-13.47.52:230][120]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.19-08.47.52
+[2015.04.19-13.47.52:233][120]LogWorld: Bringing up level for play took: 0.009659
+[2015.04.19-13.47.52:236][120]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.975
+[2015.04.19-13.47.58:486][806]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E62117380
+[2015.04.19-13.48.21:337][890]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.19-13.48.21:337][890]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 19, 2015, 3:48:21 AM)
+[2015.04.19-13.48.21:357][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020484s)
+[2015.04.19-13.48.21:358][890]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2015.04.19-13.48.21:358][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021467s)
+[2015.04.19-13.48.21:410][890]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.19-13.48.21:412][890]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.19-13.48.21:419][890]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.19-08.48.21
+[2015.04.19-13.48.21:422][890]LogWorld: Bringing up level for play took: 0.009298
+[2015.04.19-13.48.21:490][890]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.23
+[2015.04.19-13.48.21:514][890]LogRenderer:Warning: Reallocating scene render targets to support 1296x760 (Frame:6010).
+[2015.04.19-13.48.24:781][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.19-13.48.24:782][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0__F50812FA) Not registered. Aborting.
+[2015.04.19-13.48.24:782][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.04.19-13.48.24:782][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.04.19-13.48.24:782][ 76]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.04.19-13.48.24:799][ 76]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E5EC5A700
+[2015.04.19-13.48.48:360][249]Cmd: QUIT_EDITOR
+[2015.04.19-13.48.48:530][249]LogExit: Preparing to exit.
+[2015.04.19-13.48.48:973][249]LogExit: Editor shut down
+[2015.04.19-13.48.48:973][249]LogExit: Transaction tracking system shut down
+[2015.04.19-13.48.48:977][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E353A0860
+[2015.04.19-13.48.48:977][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E2ADC53A0
+[2015.04.19-13.48.49:108][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E62C7C860
+[2015.04.19-13.48.49:108][249]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E62FBDEE0
+[2015.04.19-13.48.49:108][249]LogExit: Object subsystem successfully closed.
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.19-13.48.49:144][249]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.19-13.48.49:145][249]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.19-13.48.49:811][249]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.19-13.48.49:877][249]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.19-13.48.49:877][249]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.19-13.48.49:877][249]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.19-13.48.49:878][249]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.19-13.48.49:901][249]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.19-13.48.49:902][249]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.19-13.48.49:902][249]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.19-13.48.49:902][249]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.19-13.48.50:003][249]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.19-13.48.50:003][249]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.19-13.48.50:005][249]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.19-13.48.50:007][249]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.19-13.48.50:074][249]LogDerivedDataCache: Shutdown
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.19-13.48.50:074][249]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.19-13.48.50:075][249]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.19-13.48.50:075][249]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.19-13.48.50:075][249]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.19-13.48.50:075][249]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.19-13.48.50:075][249]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.19-13.48.50:075][249]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.19-13.48.50:075][249]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.19-13.48.50:075][249]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.19-13.48.50:075][249]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.19-13.48.50:076][249]LogExit: Exiting.
+[2015.04.19-13.48.50:079][249]Log file closed, 04/19/15 08:48:50

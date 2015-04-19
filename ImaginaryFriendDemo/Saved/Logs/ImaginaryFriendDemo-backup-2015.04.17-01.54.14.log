@@ -1,0 +1,522 @@
+﻿Log file open, 04/16/15 20:46:50
+LogInit:Display: Running engine for game: ImaginaryFriendDemo
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.17-01.46.50:667][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.17-01.46.50:720][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.17-01.46.50:730][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.17-01.46.50:736][  0]LogInit: Object subsystem initialized
+[2015.04.17-01.46.50:738][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.17-01.46.50:738][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Unreal/Projects/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.17-01.46.50:738][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.17-01.46.50:738][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Unreal/Projects/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.17-01.46.50:738][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.17-01.46.50:738][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Unreal/Projects/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.17-01.46.50:738][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.17-01.46.50:738][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.17-01.46.50:742][  0]LogInit: Computer: COMPY
+[2015.04.17-01.46.50:742][  0]LogInit: User: Nick
+[2015.04.17-01.46.50:742][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.17-01.46.50:742][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2015.04.17-01.46.50:742][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.04.17-01.46.50:742][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.17-01.46.50:742][  0]LogMemory: Process Physical Memory: 45.98 MB used, 45.98 MB peak
+[2015.04.17-01.46.50:742][  0]LogMemory: Process Virtual Memory: 26.26 MB used, 26.26 MB peak
+[2015.04.17-01.46.50:742][  0]LogMemory: Physical Memory: 3899.64 MB used, 16259.70 MB total
+[2015.04.17-01.46.50:742][  0]LogMemory: Virtual Memory: 285.90 MB used, 134217728.00 MB total
+[2015.04.17-01.46.50:752][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7900 Series (Feature Level 11_0)
+[2015.04.17-01.46.50:752][  0]LogD3D11RHI: Adapter has 3051MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.04.17-01.46.50:758][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.17-01.46.50:758][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.04.17-01.46.50:759][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.17-01.46.50:759][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.17-01.46.50:759][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.17-01.46.50:762][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.17-01.46.50:765][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.17-01.46.50:817][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.17-01.46.50:859][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.17-01.46.50:859][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.17-01.46.50:918][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.17-01.46.54:207][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-01.46.56:035][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-01.46.56:081][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.17-01.46.56:374][  0]LogDerivedDataCache: Loaded boot cache 0.29s 39MB C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.17-01.46.56:374][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.17-01.46.56:374][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Projects/ImaginaryFriendDemo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.17-01.46.56:374][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.17-01.46.56:475][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.17-01.46.56:487][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.17-01.46.58:998][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.17-01.46.58:998][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.17-01.47.00:532][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.17-01.47.00:726][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.17-01.47.15:263][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.17-01.47.15:514][  0]SourceControl: Info Source control is disabled
+[2015.04.17-01.47.15:514][  0]SourceControl: Info Source control is disabled
+[2015.04.17-01.47.15:514][  0]SourceControl: Info Source control is disabled
+[2015.04.17-01.47.15:514][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.17-01.47.15:514][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.17-01.47.15:521][  0]SourceControl: Info Source control is disabled
+[2015.04.17-01.47.15:989][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.17-01.47.15:989][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.04.17-01.47.16:110][  0]LogEngine: Initializing Engine...
+[2015.04.17-01.47.18:802][  0]LogInit: XAudio2 using 'Line Out (4- Scarlett 2i2 USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.17-01.47.18:806][  0]LogInit: FAudioDevice initialized.
+[2015.04.17-01.47.18:832][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.17-01.47.18:848][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.17-01.47.18:853][  0]LogInit: Texture streaming: Enabled
+[2015.04.17-01.47.19:130][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.17-01.47.19:130][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.17-01.47.19:130][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.17-01.47.19:130][  0]LogAnalytics: SetUserId ae2fd81d40e74e933ac176aa65f19d69|a11a1d6788b14be38425ce267983457b|5433b200-1896-4b41-b217-14931c041df8
+[2015.04.17-01.47.19:130][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.17-01.47.19:180][  0]LogInit: Transaction tracking system initialized
+[2015.04.17-01.47.19:369][  0]BlueprintLog: New page: Editor Load
+[2015.04.17-01.47.19:396][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
+[2015.04.17-01.47.19:396][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.17-01.47.22:106][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-01.47.23:655][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.17-01.47.23:909][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.17-01.47.23:909][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.17-01.47.23:967][  0]LogConsoleResponse:Display: 
+[2015.04.17-01.47.26:283][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.17-01.47.26:756][  0]SourceControl: Info Source control is disabled
+[2015.04.17-01.47.26:756][  0]Cmd: MAP LOAD FILE="../../../../../Projects/ImaginaryFriendDemo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.17-01.47.26:835][  0]LightingResults: New page: Lighting Build
+[2015.04.17-01.47.26:844][  0]MapCheck: New page: Map Check
+[2015.04.17-01.47.26:844][  0]LightingResults: New page: Lighting Build
+[2015.04.17-01.47.26:850][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000029C67DA520
+[2015.04.17-01.47.36:394][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.17-01.47.38:273][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage AM_Player_Death does not match the length stored in the asset, please resave the montage asset.
+[2015.04.17-01.47.38:275][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage AM_Player_Sprint_Attack does not match the length stored in the asset, please resave the montage asset.
+[2015.04.17-01.47.38:925][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.17-01.47.40:448][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.17-01.47.40:448][  0]Cmd: MAP CHECKDEP
+[2015.04.17-01.47.40:448][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 16, 2015, 3:47:40 PM
+[2015.04.17-01.47.40:570][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.39ms to complete.
+[2015.04.17-01.47.40:570][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 13.815
+[2015.04.17-01.47.40:802][  0]LogCollectionManager: Loaded 0 collections in 0.001272 seconds
+[2015.04.17-01.47.40:809][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1696 classes and 261 folders.
+[2015.04.17-01.47.40:826][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.17-01.47.40:837][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.04.17-01.47.41:025][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.17-01.47.41:026][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.17-01.47.41:029][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.17-01.47.41:054][  0]LogLoad: Full Startup: 52.05 seconds (BP compile: 2.21 seconds)
+[2015.04.17-01.47.41:696][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.17-01.47.41:914][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x584 (Frame:4).
+[2015.04.17-01.47.43:071][  4]LogAssetRegistry: Asset discovery search completed in 23.6859 seconds
+[2015.04.17-01.57.41:812][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.17-01.57.41:813][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.17-01.57.41:813][ 16]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0__F50812FA) Not registered. Aborting.
+[2015.04.17-01.57.41:907][ 16]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.095
+[2015.04.17-01.57.41:956][ 16]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Game/BP_Player_Character_Pawn] ([1] browsable assets)...
+[2015.04.17-01.57.41:981][ 16]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn]
+[2015.04.17-01.57.41:981][ 16]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_Player_Character_Pawn]
+[2015.04.17-01.57.43:318][ 16]LogSavePackage: Save=1267.817505ms
+[2015.04.17-01.57.43:320][ 16]LogSavePackage: Moving '../../../../../Projects/ImaginaryFriendDemo/Saved/BP_Player_Character_Pawn_Auto1F4EE7F0247DAB2F27BB6CD814E9023AD.tmp' to '../../../../../Projects/ImaginaryFriendDemo/Saved/Autosaves/Game/Blueprints/Game/BP_Player_Character_Pawn_Auto1.uasset'
+[2015.04.17-01.57.43:325][ 16]LogFileHelpers: Auto-saving content packages took 1.417
+[2015.04.17-02.42.16:412][917]LogRenderer:Warning: Reallocating scene render targets to support 1208x744 (Frame:1285).
+[2015.04.17-02.42.57:910][144]BlueprintLog: New page: Compile BP_Player_Character_Pawn
+[2015.04.17-02.42.58:495][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.17-02.42.58:572][144]BlueprintEditorCompileResults: Info [3369.57] Compile of BP_Player_Character_Pawn successful! [in 660 ms]
+[2015.04.17-02.43.15:234][625]LogSavePackage: Save=1970.769775ms
+[2015.04.17-02.43.15:234][625]LogSavePackage: Moving '../../../../../Projects/ImaginaryFriendDemo/Saved/ThirdPersonExampleMap_Auto2A320C2A74FCA96008B1D9CBC05AAEF83.tmp' to '../../../../../Projects/ImaginaryFriendDemo/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2015.04.17-02.43.15:238][625]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 2.094
+[2015.04.17-02.43.15:238][625]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.094
+[2015.04.17-02.43.15:281][625]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Game/BP_Player_Character_Pawn] ([1] browsable assets)...
+[2015.04.17-02.43.15:321][625]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn]
+[2015.04.17-02.43.15:321][625]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_Player_Character_Pawn]
+[2015.04.17-02.43.16:770][625]LogSavePackage: Save=1440.642212ms
+[2015.04.17-02.43.16:771][625]LogSavePackage: Moving '../../../../../Projects/ImaginaryFriendDemo/Saved/BP_Player_Character_Pawn_Auto207DA7EA34E2A451029DAD4A02114F292.tmp' to '../../../../../Projects/ImaginaryFriendDemo/Saved/Autosaves/Game/Blueprints/Game/BP_Player_Character_Pawn_Auto2.uasset'
+[2015.04.17-02.43.16:777][625]LogFileHelpers: Auto-saving content packages took 1.539
+[2015.04.17-02.45.01:576][569]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-02.45.01:581][569]LogPlayLevel: [PIE] Compiling AB_Player_Character before PIE...
+[2015.04.17-02.45.01:920][569]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.17-02.45.01:955][569]LogPlayLevel: PIE:  Blueprint regeneration took 379 ms (1 blueprints)
+[2015.04.17-02.45.01:955][569]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 16, 2015, 4:45:01 PM)
+[2015.04.17-02.45.01:982][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025853s)
+[2015.04.17-02.45.01:982][569]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2015.04.17-02.45.01:982][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026744s)
+[2015.04.17-02.45.02:127][569]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.17-02.45.02:130][569]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.17-02.45.02:137][569]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.16-21.45.02
+[2015.04.17-02.45.02:140][569]LogWorld: Bringing up level for play took: 0.008726
+[2015.04.17-02.45.02:144][569]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.091
+[2015.04.17-02.46.18:131][937]LogBlueprintUserMessages: 257.139862
+[2015.04.17-02.46.18:131][937]LogBlueprintUserMessages: 72.434029
+[2015.04.17-02.46.18:131][937]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.46.18:131][937]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.46.18:131][937]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.46.18:131][937]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.46.19:135][ 39]LogBlueprintUserMessages: 257.139862
+[2015.04.17-02.46.19:135][ 39]LogBlueprintUserMessages: 72.434029
+[2015.04.17-02.46.19:135][ 39]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.46.19:135][ 39]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.46.19:135][ 39]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.46.19:135][ 39]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.46.20:161][148]LogBlueprintUserMessages: 257.139862
+[2015.04.17-02.46.20:161][148]LogBlueprintUserMessages: 72.434029
+[2015.04.17-02.46.20:161][148]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.46.20:161][148]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.46.20:161][148]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.46.20:162][148]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.46.31:524][270]LogBlueprintUserMessages: 297.790497
+[2015.04.17-02.46.31:524][270]LogBlueprintUserMessages: 108.818344
+[2015.04.17-02.46.31:524][270]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.46.31:524][270]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.46.31:524][270]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.46.31:525][270]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.46.36:747][783]LogBlueprintUserMessages: 230.788223
+[2015.04.17-02.46.36:747][783]LogBlueprintUserMessages: 40.563278
+[2015.04.17-02.46.36:747][783]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.46.36:747][783]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.46.36:747][783]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.46.36:747][783]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.46.45:132][605]LogBlueprintUserMessages: 1125.610596
+[2015.04.17-02.46.45:132][605]LogBlueprintUserMessages: 1058.540039
+[2015.04.17-02.46.45:132][605]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.46.45:132][605]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.46.45:132][605]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.46.45:132][605]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.46.47:526][841]LogBlueprintUserMessages: 1180.676392
+[2015.04.17-02.46.47:526][841]LogBlueprintUserMessages: 1094.346069
+[2015.04.17-02.46.47:526][841]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.46.47:526][841]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.46.47:526][841]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.46.47:526][841]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.46.50:622][147]LogBlueprintUserMessages: 1209.673584
+[2015.04.17-02.46.50:622][147]LogBlueprintUserMessages: 1132.004883
+[2015.04.17-02.46.50:622][147]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.46.50:622][147]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.46.50:622][147]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.46.50:623][147]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.47.19:851][993]LogBlueprintUserMessages: 65.101097
+[2015.04.17-02.47.19:851][993]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.47.19:851][993]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.47.19:851][993]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.47.19:851][993]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.47.30:466][ 48]LogBlueprintUserMessages: 965.712219
+[2015.04.17-02.47.30:466][ 48]LogBlueprintUserMessages: 819.778198
+[2015.04.17-02.47.30:466][ 48]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.47.30:466][ 48]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.47.30:466][ 48]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.47.30:467][ 48]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.47.33:997][392]LogBlueprintUserMessages: 1134.684082
+[2015.04.17-02.47.33:997][392]LogBlueprintUserMessages: 977.441528
+[2015.04.17-02.47.33:997][392]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.47.33:997][392]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.47.33:997][392]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.47.33:998][392]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.47.40:388][ 25]LogBlueprintUserMessages: 483.155487
+[2015.04.17-02.47.40:388][ 25]LogBlueprintUserMessages: 365.882843
+[2015.04.17-02.47.40:388][ 25]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.47.40:388][ 25]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.47.40:388][ 25]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.47.40:388][ 25]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.47.44:858][475]LogBlueprintUserMessages: 482.225861
+[2015.04.17-02.47.44:858][475]LogBlueprintUserMessages: 346.671692
+[2015.04.17-02.47.44:858][475]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.47.44:858][475]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.47.44:859][475]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.47.44:859][475]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.47.47:102][703]LogBlueprintUserMessages: 474.004395
+[2015.04.17-02.47.47:102][703]LogBlueprintUserMessages: 287.921387
+[2015.04.17-02.47.47:102][703]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.47.47:102][703]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.47.47:102][703]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.47.47:102][703]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.47.47:909][784]LogBlueprintUserMessages: 487.00235
+[2015.04.17-02.47.47:909][784]LogBlueprintUserMessages: 260.104553
+[2015.04.17-02.47.47:909][784]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.47.47:909][784]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.47.47:909][784]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.47.47:909][784]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.47.48:690][863]LogBlueprintUserMessages: 511.769043
+[2015.04.17-02.47.48:690][863]LogBlueprintUserMessages: 248.621262
+[2015.04.17-02.47.48:690][863]LogBlueprintUserMessages: 0.0
+[2015.04.17-02.47.48:690][863]LogArray:Warning: Attempted to get an item from array CallFunc_GetAllActorsOfClass_OutActors out of bounds [4/3]!
+[2015.04.17-02.47.48:690][863]LogScript:Warning: Accessed None 'CallFunc_Array_Get_Item'
+	BP_Player_Character_Pawn_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_C_79
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:ExecuteUbergraph_BP_Player_Character_Pawn:24DB
+[2015.04.17-02.47.48:690][863]PIE:Error: Error Accessed None 'CallFunc_Array_Get_Item' from node Set RetDamage in blueprint BP_Player_Character_Pawn
+[2015.04.17-02.47.58:549][812]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000298A2C5EE0
+[2015.04.17-02.48.13:463][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game/BP_Player_Character_Pawn" FILE="../../../../../Projects/ImaginaryFriendDemo/Content/Blueprints/Game/BP_Player_Character_Pawn.uasset" SILENT=true
+[2015.04.17-02.48.14:387][464]LogSavePackage: Save=922.071899ms
+[2015.04.17-02.48.14:387][464]LogSavePackage: Moving '../../../../../Projects/ImaginaryFriendDemo/Saved/BP_Player_Character_PawnEEB7B8D8419307BA81134290DBE662C1.tmp' to '../../../../../Projects/ImaginaryFriendDemo/Content/Blueprints/Game/BP_Player_Character_Pawn.uasset'
+[2015.04.17-02.48.16:505][464]LogSavePackage: Save=1910.935303ms
+[2015.04.17-02.48.16:505][464]LogSavePackage: Moving '../../../../../Projects/ImaginaryFriendDemo/Saved/ThirdPersonExampleMap24640F214128E69B424EB3A2574E5D9B.tmp' to '../../../../../Projects/ImaginaryFriendDemo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.17-02.48.16:560][464]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.130
+[2015.04.17-02.48.16:568][464]Cmd: MAP LOAD FILE="../../../../../Projects/ImaginaryFriendDemo/Content/Maps/Stylized_Kingdom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.17-02.48.16:634][464]LightingResults: New page: Lighting Build
+[2015.04.17-02.48.16:671][464]LoadErrors: New page: Loading map: Stylized_Kingdom.umap
+[2015.04.17-02.48.16:769][464]MapCheck: New page: Map Check
+[2015.04.17-02.48.16:769][464]LightingResults: New page: Lighting Build
+[2015.04.17-02.48.16:791][464]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000029DBC06480
+[2015.04.17-02.48.17:116][464]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Child.ThirdPersonCharacter_Child_C:UserConstructionScript; removing parent information, but keeping function
+[2015.04.17-02.48.20:735][464]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.17-02.48.24:521][464]LogAIModule: Creating AISystem for world Stylized_Kingdom
+[2015.04.17-02.48.24:576][464]Cmd: MAP CHECKDEP
+[2015.04.17-02.48.24:576][464]MapCheck: New page: Stylized_Kingdom - Apr 16, 2015, 4:48:24 PM
+[2015.04.17-02.48.24:727][464]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 150.294ms to complete.
+[2015.04.17-02.48.24:727][464]LogFileHelpers: Loading map 'Stylized_Kingdom' took 8.165
+[2015.04.17-02.48.24:901][465]Cmd: UpdateLandscapeEditorData -warnings
+[2015.04.17-02.48.25:104][465]Cmd: UpdateLandscapeEditorData
+[2015.04.17-02.48.33:965][292]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.17-02.48.33:965][292]LogPlayLevel: [PIE] Compiling Stylized_Kingdom before PIE...
+[2015.04.17-02.48.34:007][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.17-02.48.34:007][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.04.17-02.48.34:008][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.04.17-02.48.34:008][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.04.17-02.48.34:038][292]LogPlayLevel: PIE:  Blueprint regeneration took 72 ms (1 blueprints)
+[2015.04.17-02.48.34:038][292]PIE: New page: PIE session: Stylized_Kingdom (Apr 16, 2015, 4:48:34 PM)
+[2015.04.17-02.48.34:130][292]LogBlueprint:Warning: FMemberReference::ResolveMember (SetCinematicMode) bSelfContext == true, but no scope supplied!
+[2015.04.17-02.48.34:130][292]LogBlueprint:Warning: FMemberReference::ResolveMember (SetCinematicMode) bSelfContext == true, but no scope supplied!
+[2015.04.17-02.48.34:131][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092751s)
+[2015.04.17-02.48.34:132][292]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2015.04.17-02.48.34:132][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stylized_Kingdom.Stylized_Kingdom to /Game/Maps/UEDPIE_0_Stylized_Kingdom.Stylized_Kingdom (0.093564s)
+[2015.04.17-02.48.34:169][292]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.17-02.48.34:171][292]LogAIModule: Creating AISystem for world Stylized_Kingdom
+[2015.04.17-02.48.34:235][292]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Stylized_Kingdom.Stylized_Kingdom up for play (max tick rate 0) at 2015.04.16-21.48.34
+[2015.04.17-02.48.34:339][292]LogWorld: Bringing up level for play took: 0.166969
+[2015.04.17-02.48.34:344][292]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Stylized_Kingdom 0.291
+[2015.04.17-02.50.37:529][972]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000029D920C900
+[2015.04.17-02.51.24:788][868]Cmd: SELECT NONE
+[2015.04.17-02.54.28:738][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Game/BP_Player_Character_Pawn" FILE="../../../../../Projects/ImaginaryFriendDemo/Content/Blueprints/Game/BP_Player_Character_Pawn.uasset" SILENT=true
+[2015.04.17-02.54.29:710][657]LogSavePackage: Save=967.193298ms
+[2015.04.17-02.54.29:710][657]LogSavePackage: Moving '../../../../../Projects/ImaginaryFriendDemo/Saved/BP_Player_Character_Pawn42BEE920422B8E8AACA533A9A6AE9A38.tmp' to '../../../../../Projects/ImaginaryFriendDemo/Content/Blueprints/Game/BP_Player_Character_Pawn.uasset'
+[2015.04.17-02.54.31:279][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Stylized_Kingdom" FILE="../../../../../Projects/ImaginaryFriendDemo/Content/Maps/Stylized_Kingdom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.17-02.54.34:478][782]LogSavePackage: Save=3125.454102ms
+[2015.04.17-02.54.34:478][782]LogSavePackage: Moving '../../../../../Projects/ImaginaryFriendDemo/Saved/Stylized_KingdomC7B3A57349F4E9FF9227B2BE7A0734F7.tmp' to '../../../../../Projects/ImaginaryFriendDemo/Content/Maps/Stylized_Kingdom.umap'
+[2015.04.17-02.54.34:539][782]LogFileHelpers: Saving map 'Stylized_Kingdom' took 3.408
+[2015.04.17-02.54.34:545][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode" FILE="../../../../../Projects/ImaginaryFriendDemo/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2015.04.17-02.54.34:554][782]LogSavePackage: Save=6.415689ms
+[2015.04.17-02.54.34:554][782]LogSavePackage: Moving '../../../../../Projects/ImaginaryFriendDemo/Saved/ThirdPersonGameMode040EB75C452D0F08D326F8B64F22DCA4.tmp' to '../../../../../Projects/ImaginaryFriendDemo/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset'
+[2015.04.17-02.54.36:418][921]Cmd: QUIT_EDITOR
+[2015.04.17-02.54.36:604][921]LogExit: Preparing to exit.
+[2015.04.17-02.54.36:960][921]LogExit: Editor shut down
+[2015.04.17-02.54.36:960][921]LogExit: Transaction tracking system shut down
+[2015.04.17-02.54.36:964][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000029D9545300
+[2015.04.17-02.54.36:965][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002982BE6FC0
+[2015.04.17-02.54.36:965][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002982C98860
+[2015.04.17-02.54.36:966][921]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002985945300
+[2015.04.17-02.54.37:100][921]LogExit: Object subsystem successfully closed.
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.17-02.54.37:148][921]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.17-02.54.37:159][921]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.17-02.54.37:159][921]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.17-02.54.37:159][921]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.17-02.54.37:159][921]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.17-02.54.37:159][921]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.17-02.54.37:159][921]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.17-02.54.37:159][921]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.17-02.54.37:159][921]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.17-02.54.37:159][921]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.17-02.54.37:160][921]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.17-02.54.37:160][921]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.17-02.54.37:160][921]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.17-02.54.37:160][921]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.17-02.54.37:375][921]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.17-02.54.37:387][921]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.17-02.54.37:387][921]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.17-02.54.37:387][921]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.17-02.54.37:387][921]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.17-02.54.37:387][921]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.17-02.54.37:387][921]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.17-02.54.37:387][921]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.17-02.54.37:517][921]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.17-02.54.37:517][921]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.17-02.54.37:517][921]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.17-02.54.37:518][921]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.17-02.54.37:518][921]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.17-02.54.37:518][921]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.17-02.54.37:518][921]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.17-02.54.37:518][921]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.17-02.54.37:518][921]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.17-02.54.37:518][921]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.17-02.54.37:518][921]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.17-02.54.37:518][921]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.17-02.54.37:519][921]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.17-02.54.37:519][921]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.17-02.54.37:519][921]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.17-02.54.37:519][921]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.17-02.54.37:519][921]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.17-02.54.37:519][921]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.17-02.54.37:519][921]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.17-02.54.37:519][921]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.17-02.54.37:519][921]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.17-02.54.37:635][921]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.17-02.54.37:636][921]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.17-02.54.37:636][921]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.17-02.54.37:636][921]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.17-02.54.37:636][921]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.17-02.54.37:636][921]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.17-02.54.37:636][921]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.17-02.54.37:636][921]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.17-02.54.37:637][921]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.17-02.54.37:637][921]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.17-02.54.37:637][921]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.17-02.54.37:637][921]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.17-02.54.37:637][921]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.17-02.54.37:637][921]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.17-02.54.37:637][921]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.17-02.54.37:738][921]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.17-02.54.37:738][921]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.17-02.54.37:744][921]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.17-02.54.37:745][921]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.17-02.54.37:745][921]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.17-02.54.37:745][921]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.17-02.54.37:745][921]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.17-02.54.37:745][921]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.17-02.54.37:747][921]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.17-02.54.37:771][921]LogDerivedDataCache: Shutdown
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.17-02.54.37:771][921]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.17-02.54.37:777][921]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.17-02.54.37:777][921]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.17-02.54.37:777][921]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.17-02.54.37:777][921]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.17-02.54.37:777][921]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.17-02.54.37:778][921]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.17-02.54.37:778][921]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.17-02.54.37:778][921]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.17-02.54.37:778][921]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.17-02.54.37:778][921]LogExit: Exiting.
+[2015.04.17-02.54.37:810][921]Log file closed, 04/16/15 21:54:37
