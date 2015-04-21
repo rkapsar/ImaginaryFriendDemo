@@ -1,0 +1,803 @@
+﻿Log file open, 04/21/15 12:37:46
+LogInit:Display: Running engine for game: ImaginaryFriendDemo
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.21-17.37.46:217][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.21-17.37.46:270][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.21-17.37.46:280][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.21-17.37.46:287][  0]LogInit: Object subsystem initialized
+[2015.04.21-17.37.46:289][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.21-17.37.46:289][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-17.37.46:289][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.21-17.37.46:289][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-17.37.46:289][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.21-17.37.46:289][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-17.37.46:289][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.21-17.37.46:289][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.21-17.37.46:293][  0]LogInit: Computer: COMPY
+[2015.04.21-17.37.46:293][  0]LogInit: User: Nick
+[2015.04.21-17.37.46:293][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.21-17.37.46:293][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2015.04.21-17.37.46:293][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.04.21-17.37.46:293][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.21-17.37.46:293][  0]LogMemory: Process Physical Memory: 47.29 MB used, 47.29 MB peak
+[2015.04.21-17.37.46:293][  0]LogMemory: Process Virtual Memory: 25.33 MB used, 25.33 MB peak
+[2015.04.21-17.37.46:293][  0]LogMemory: Physical Memory: 4348.31 MB used, 16259.70 MB total
+[2015.04.21-17.37.46:293][  0]LogMemory: Virtual Memory: 284.96 MB used, 134217728.00 MB total
+[2015.04.21-17.37.46:304][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7900 Series (Feature Level 11_0)
+[2015.04.21-17.37.46:304][  0]LogD3D11RHI: Adapter has 3051MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.04.21-17.37.46:309][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.21-17.37.46:309][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.04.21-17.37.46:310][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.21-17.37.46:310][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.21-17.37.46:310][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.21-17.37.46:313][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.21-17.37.46:317][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.21-17.37.46:367][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.21-17.37.46:410][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.21-17.37.46:410][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.21-17.37.46:471][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.21-17.37.49:534][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-17.37.51:270][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-17.37.51:315][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.21-17.37.51:350][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.21-17.37.51:350][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.21-17.37.51:350][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.21-17.37.51:350][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.21-17.37.51:443][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.21-17.37.51:454][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.21-17.37.51:681][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.21-17.37.51:681][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.21-17.37.52:006][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.21-17.37.52:067][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.21-17.37.52:688][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.21-17.37.52:857][  0]SourceControl: Info Source control is disabled
+[2015.04.21-17.37.52:857][  0]SourceControl: Info Source control is disabled
+[2015.04.21-17.37.52:857][  0]SourceControl: Info Source control is disabled
+[2015.04.21-17.37.52:857][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.21-17.37.52:858][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.21-17.37.52:864][  0]SourceControl: Info Source control is disabled
+[2015.04.21-17.37.53:013][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.21-17.37.53:013][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.04.21-17.37.53:081][  0]LogEngine: Initializing Engine...
+[2015.04.21-17.37.55:209][  0]LogInit: XAudio2 using 'Line Out (4- Scarlett 2i2 USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.21-17.37.55:213][  0]LogInit: FAudioDevice initialized.
+[2015.04.21-17.37.55:240][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.21-17.37.55:258][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.21-17.37.55:261][  0]LogInit: Texture streaming: Enabled
+[2015.04.21-17.37.55:328][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.21-17.37.55:328][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.21-17.37.55:328][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.21-17.37.55:328][  0]LogAnalytics: SetUserId ae2fd81d40e74e933ac176aa65f19d69|a11a1d6788b14be38425ce267983457b|5433b200-1896-4b41-b217-14931c041df8
+[2015.04.21-17.37.55:328][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.21-17.37.55:343][  0]LogInit: Transaction tracking system initialized
+[2015.04.21-17.37.55:461][  0]BlueprintLog: New page: Editor Load
+[2015.04.21-17.37.55:489][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.04.21-17.37.55:489][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.21-17.37.57:239][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-17.37.58:863][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-17.37.59:066][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.21-17.37.59:067][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.21-17.37.59:071][  0]LogConsoleResponse:Display: 
+[2015.04.21-17.37.59:180][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.21-17.37.59:288][  0]SourceControl: Info Source control is disabled
+[2015.04.21-17.37.59:289][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.21-17.37.59:289][  0]LightingResults: New page: Lighting Build
+[2015.04.21-17.37.59:298][  0]MapCheck: New page: Map Check
+[2015.04.21-17.37.59:298][  0]LightingResults: New page: Lighting Build
+[2015.04.21-17.37.59:305][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092A4DB2980
+[2015.04.21-17.38.03:131][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.21-17.38.03:706][  0]LoadErrors:Error: Error Failed import for SkeletalMeshComponent
+[2015.04.21-17.38.04:139][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage AM_Player_Death does not match the length stored in the asset, please resave the montage asset.
+[2015.04.21-17.38.04:143][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage AM_Player_Sprint_Attack does not match the length stored in the asset, please resave the montage asset.
+[2015.04.21-17.38.04:254][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:254][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:254][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:254][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:254][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:254][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:254][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:254][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:255][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:255][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:255][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:255][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:255][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:255][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:255][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:256][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:256][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:256][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:257][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:257][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:257][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:257][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:257][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:257][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:258][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:258][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:258][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:258][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:258][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:258][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:258][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:258][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:259][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:259][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:259][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:259][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:259][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:259][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:260][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:260][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:261][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:261][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:261][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:261][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:261][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:261][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:262][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:262][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:263][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:263][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:263][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:263][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:263][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:263][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:264][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:264][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:265][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:265][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:265][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:265][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:265][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:265][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:265][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:266][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:267][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:267][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:267][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:267][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:267][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:267][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:267][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:267][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:268][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:268][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:268][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:268][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:268][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:268][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:268][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:268][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:270][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:270][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:270][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:270][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:271][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:271][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:271][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:271][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:271][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_0.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:271][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:271][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:272][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:272][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:272][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:272][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:272][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:272][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:273][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_1.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:274][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:274][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:274][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:274][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:274][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:274][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:274][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:274][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:275][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_2.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:275][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:275][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:275][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:275][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:275][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:275][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:275][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:275][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:276][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_3.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:276][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:276][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:276][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:276][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:277][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:277][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:277][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:277][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:277][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_4.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:277][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:277][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:277][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:278][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:278][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:278][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:278][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:278][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:278][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_5.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:279][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:279][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:279][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:279][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:280][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:280][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:280][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:280][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:281][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_6.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:281][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:281][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:281][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:282][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:282][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:282][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:282][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:282][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:283][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_7.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:284][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:284][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:284][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:284][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:285][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:285][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:285][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:285][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:286][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:287][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:287][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:287][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:287][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:288][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:288][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:288][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:288][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-17.38.04:289][  0]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_9.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-17.38.04:290][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.21-17.38.05:146][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.21-17.38.05:147][  0]Cmd: MAP CHECKDEP
+[2015.04.21-17.38.05:147][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 21, 2015, 7:38:05 AM
+[2015.04.21-17.38.05:262][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.705ms to complete.
+[2015.04.21-17.38.05:262][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 5.974
+[2015.04.21-17.38.05:397][  0]LogCollectionManager: Loaded 0 collections in 0.001613 seconds
+[2015.04.21-17.38.05:404][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 1696 classes and 261 folders.
+[2015.04.21-17.38.05:440][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2015.04.21-17.38.05:522][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.21-17.38.05:523][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.21-17.38.05:526][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.21-17.38.05:551][  0]LogLoad: Full Startup: 20.97 seconds (BP compile: 2.37 seconds)
+[2015.04.21-17.38.05:926][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Game'
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:006][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:007][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:007][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:007][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:007][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:007][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-17.38.06:047][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.21-17.38.06:214][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x584 (Frame:5).
+[2015.04.21-17.38.07:386][  4]LogAssetRegistry: Asset discovery search completed in 11.9091 seconds
+[2015.04.21-17.45.26:159][320]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.21-17.45.30:512][555]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.21-17.53.13:294][ 32]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.21-17.59.23:202][263]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Effects'
+[2015.04.21-17.59.25:652][548]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2015.04.21-17.59.28:087][829]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/xoio_berlinflat'
+[2015.04.21-17.59.29:211][957]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/xoio_berlinflat/furniture'
+[2015.04.21-17.59.30:070][ 57]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/xoio_berlinflat/furniture/bed'
+[2015.04.21-17.59.32:667][344]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/xoio_berlinflat/furniture'
+[2015.04.21-17.59.36:960][809]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/xoio_berlinflat/furniture/bed'
+[2015.04.21-17.59.40:703][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/bed/newbed_Object001" FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object001.uasset" SILENT=true
+[2015.04.21-17.59.40:953][139]LogSavePackage: Save=248.152344ms
+[2015.04.21-17.59.40:953][139]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/newbed_Object00127C48A7F4230DCFD797522B8F089EEC5.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object001.uasset'
+[2015.04.21-17.59.40:974][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/bed/newbed_Object002" FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object002.uasset" SILENT=true
+[2015.04.21-17.59.41:230][139]LogSavePackage: Save=254.335251ms
+[2015.04.21-17.59.41:230][139]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/newbed_Object00206DF08224AECB593915DDAAC7C1FE6F8.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object002.uasset'
+[2015.04.21-17.59.41:252][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/bed/newbed_Object003" FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object003.uasset" SILENT=true
+[2015.04.21-17.59.41:500][139]LogSavePackage: Save=246.818314ms
+[2015.04.21-17.59.41:500][139]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/newbed_Object003296DE34743A8D5B4B0CEF08D47E91CA9.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object003.uasset'
+[2015.04.21-17.59.41:533][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/bed/newbed_Object004" FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object004.uasset" SILENT=true
+[2015.04.21-17.59.41:771][139]LogSavePackage: Save=236.801743ms
+[2015.04.21-17.59.41:771][139]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/newbed_Object004C3A1996E4EFC0FE50D6F70B18E87D022.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object004.uasset'
+[2015.04.21-17.59.41:790][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/bed/newbed_Object005" FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object005.uasset" SILENT=true
+[2015.04.21-17.59.42:040][139]LogSavePackage: Save=249.437363ms
+[2015.04.21-17.59.42:040][139]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/newbed_Object005D61837BC453DABE69503ADB93CEA2CFC.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object005.uasset'
+[2015.04.21-17.59.42:058][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/bed/newbed_Object007" FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object007.uasset" SILENT=true
+[2015.04.21-17.59.42:333][139]LogSavePackage: Save=273.494324ms
+[2015.04.21-17.59.42:333][139]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/newbed_Object00712D5587645C4AAE9CC4497941E9856DD.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object007.uasset'
+[2015.04.21-17.59.42:351][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/bed/newbed_Object008" FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object008.uasset" SILENT=true
+[2015.04.21-17.59.42:620][139]LogSavePackage: Save=267.019684ms
+[2015.04.21-17.59.42:620][139]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/newbed_Object0083E4F56904B0DE2983EF05FB2AFB5428F.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object008.uasset'
+[2015.04.21-17.59.42:641][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/bed/newbed_Object009" FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object009.uasset" SILENT=true
+[2015.04.21-17.59.42:912][139]LogSavePackage: Save=269.803925ms
+[2015.04.21-17.59.42:912][139]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/newbed_Object00970FA790D4456377A9C587EB9E32DF1E5.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object009.uasset'
+[2015.04.21-17.59.42:932][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/bed/newbed_Object010" FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object010.uasset" SILENT=true
+[2015.04.21-17.59.43:203][139]LogSavePackage: Save=269.901398ms
+[2015.04.21-17.59.43:203][139]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/newbed_Object010A60DCDB2460B55D4E349E691A7A7A1E4.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Meshes/bed/newbed_Object010.uasset'
+[2015.04.21-17.59.43:284][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-17.59.43:284][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.21-17.59.43:284][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.04.21-17.59.43:989][139]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.21-17.59.43:990][139]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/bed'
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:069][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:070][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:070][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:070][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:070][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:070][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:070][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:070][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.44:070][139]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_6
+[2015.04.21-17.59.45:519][202]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/xoio_berlinflat'
+[2015.04.21-17.59.49:048][612]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/bed'
+[2015.04.21-18.00.19:213][311]LogEditorViewport: Clicking on Actor (LMB): BP_Player_Character_Pawn_Enemy_C (BP_Player_Character_Pawn_Enemy3)
+[2015.04.21-18.00.21:974][447]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.21-18.00.22:604][467]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ExampleContent'
+[2015.04.21-18.00.23:149][514]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Environment'
+[2015.04.21-18.00.23:678][561]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.21-18.00.25:104][679]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Game'
+[2015.04.21-18.00.27:227][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:227][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:227][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:227][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:228][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:228][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:228][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:228][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:228][742]LogScript:Warning: Accessed None 'Mesh'
+	BP_Player_Character_Pawn_Enemy_C /Engine/Transient.World_6:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_140
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:UserConstructionScript:0017
+[2015.04.21-18.00.27:228][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:229][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:229][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:229][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:229][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:229][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:229][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:229][742]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.27:229][742]LogScript:Warning: Accessed None 'Mesh'
+	BP_Player_Character_Pawn_Enemy_C /Engine/Transient.World_6:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_140
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:UserConstructionScript:0017
+[2015.04.21-18.00.28:757][892]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:757][892]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:757][892]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:757][892]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:760][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:760][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:760][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:760][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:760][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:760][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:760][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:761][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:761][893]LogScript:Warning: Accessed None 'Mesh'
+	BP_Player_Character_Pawn_Enemy_C /Engine/Transient.World_6:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_155
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:UserConstructionScript:0017
+[2015.04.21-18.00.28:761][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:761][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:761][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:762][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:762][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:762][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:762][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:762][893]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.28:762][893]LogScript:Warning: Accessed None 'Mesh'
+	BP_Player_Character_Pawn_Enemy_C /Engine/Transient.World_6:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_155
+	Function /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn_C:UserConstructionScript:0017
+[2015.04.21-18.00.28:843][900]LogRenderer:Warning: Reallocating scene render targets to support 1208x736 (Frame:11367).
+[2015.04.21-18.00.56:034][782]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.56:034][782]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.56:034][782]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.56:034][782]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.58:426][954]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.58:426][954]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.58:427][954]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.58:427][954]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.58:427][954]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.58:427][954]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.58:427][954]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.58:427][954]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.00.58:428][954]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_2.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-18.01.00:271][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.01.00:271][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.04.21-18.01.00:271][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.04.21-18.01.00:295][ 29]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092A1689F80
+[2015.04.21-18.01.02:130][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:130][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:130][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:130][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:165][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:165][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:165][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:165][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:166][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:166][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:166][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:166][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:197][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:197][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:197][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:197][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:198][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:198][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:198][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:198][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:199][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:199][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:199][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:199][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:199][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:199][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:199][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:199][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:200][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:200][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:200][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:200][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:201][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:201][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:201][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:201][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:202][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:202][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:202][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:202][ 29]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-18.01.02:255][ 29]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_Player_Character_Pawn_Enemy_C_0' or package '/Engine/Transient'.
+[2015.04.21-18.01.02:255][ 29]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Function_725' or package '/Engine/Transient'.
+[2015.04.21-18.01.02:255][ 29]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ObjectProperty_379' or package '/Engine/Transient'.
+[2015.04.21-18.01.02:255][ 29]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_Player_Character_Pawn_Enemy_C_1' or package '/Engine/Transient'.
+[2015.04.21-18.01.02:255][ 29]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BP_Player_Character_Pawn_Enemy_C_170' or package '/Engine/Transient'.
+[2015.04.21-18.01.02:255][ 29]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BP_Player_Character_Pawn_Enemy_C_169' or package '/Engine/Transient'.
+[2015.04.21-18.01.02:258][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.01.08:511][482]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.01.08:511][482]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.04.21-18.01.10:477][482]LogSavePackage: Save=1872.215942ms
+[2015.04.21-18.01.10:477][482]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/ThirdPersonExampleMap_Auto1306F2A7A428CC6D7EFE938A7FD7407BA.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2015.04.21-18.01.10:480][482]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.969
+[2015.04.21-18.01.10:480][482]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.969
+[2015.04.21-18.01.10:519][482]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Game/BP_Player_Character_Pawn_Child2] ([1] browsable assets)...
+[2015.04.21-18.01.10:547][482]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Game/BP_Player_Character_Pawn_Child2.BP_Player_Character_Pawn_Child2]
+[2015.04.21-18.01.10:547][482]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_Player_Character_Pawn_Child2]
+[2015.04.21-18.01.10:893][482]LogSavePackage: Save=340.775635ms
+[2015.04.21-18.01.10:893][482]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/BP_Player_Character_Pawn_Child2_Auto1AF2B57CA4478A91A2B1FB0A3AF0E3646.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/Autosaves/Game/Blueprints/Game/BP_Player_Character_Pawn_Child2_Auto1.uasset'
+[2015.04.21-18.01.10:940][482]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Game/BP_Player_Character_Pawn] ([1] browsable assets)...
+[2015.04.21-18.01.10:975][482]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Game/BP_Player_Character_Pawn.BP_Player_Character_Pawn]
+[2015.04.21-18.01.10:975][482]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Game/BP_Player_Character_Pawn]
+[2015.04.21-18.01.12:371][482]LogSavePackage: Save=1383.516602ms
+[2015.04.21-18.01.12:374][482]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/BP_Player_Character_Pawn_Auto1C71FA3AA4D33A17A22E59CB2F478D65F.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/Autosaves/Game/Blueprints/Game/BP_Player_Character_Pawn_Auto1.uasset'
+[2015.04.21-18.01.12:382][482]LogFileHelpers: Auto-saving content packages took 1.901
+[2015.04.21-18.01.28:186][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.01.28:186][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.04.21-18.01.29:614][787]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_Player_Character_Pawn_Child2_C_3' or package '/Engine/Transient'.
+[2015.04.21-18.01.29:614][787]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BP_Player_Character_Pawn_Child2_C_2' or package '/Engine/Transient'.
+[2015.04.21-18.01.29:614][787]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BP_Player_Character_Pawn_Child2_C_184' or package '/Engine/Transient'.
+[2015.04.21-18.01.29:614][787]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BP_Player_Character_Pawn_Child2_C_183' or package '/Engine/Transient'.
+[2015.04.21-18.01.29:750][787]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092AD179A80
+[2015.04.21-18.01.30:563][844]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/Blueprints/Game/BP_Player_Character_Pawn_Child.BP_Player_Character_Pawn_Child_C:UserConstructionScript; removing parent information, but keeping function
+[2015.04.21-18.01.50:613][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.01.50:613][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.04.21-18.01.50:613][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.04.21-18.01.50:648][486]LogMetaData: Removing '/Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.BP_Player_Character_Pawn_Enemy:UserConstructionScript.K2Node_FunctionEntry_702' ref from Metadata '/Game/Blueprints/Game/BP_Player_Character_Pawn_Child.PackageMetaData'
+[2015.04.21-18.01.50:648][486]LogMetaData: Removing '/Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.BP_Player_Character_Pawn_Enemy:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Game/BP_Player_Character_Pawn_Child.PackageMetaData'
+[2015.04.21-18.01.50:648][486]LogMetaData: Removing '/Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.BP_Player_Character_Pawn_Enemy_C' ref from Metadata '/Game/Blueprints/Game/BP_Player_Character_Pawn_Child.PackageMetaData'
+[2015.04.21-18.01.50:648][486]LogMetaData: Removing '/Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.BP_Player_Character_Pawn_Enemy:EventGraph.K2Node_Event_523' ref from Metadata '/Game/Blueprints/Game/BP_Player_Character_Pawn_Child.PackageMetaData'
+[2015.04.21-18.01.50:648][486]LogMetaData: Removing '/Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.BP_Player_Character_Pawn_Enemy:EventGraph.K2Node_Event_525' ref from Metadata '/Game/Blueprints/Game/BP_Player_Character_Pawn_Child.PackageMetaData'
+[2015.04.21-18.01.50:648][486]LogMetaData: Removing '/Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.BP_Player_Character_Pawn_Enemy:EventGraph.K2Node_Event_524' ref from Metadata '/Game/Blueprints/Game/BP_Player_Character_Pawn_Child.PackageMetaData'
+[2015.04.21-18.01.50:648][486]LogMetaData: Removing '/Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.BP_Player_Character_Pawn_Enemy:EventGraph.K2Node_CallParentFunction_3' ref from Metadata '/Game/Blueprints/Game/BP_Player_Character_Pawn_Child.PackageMetaData'
+[2015.04.21-18.01.50:648][486]LogMetaData: Removing '/Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.SKEL_BP_Player_Character_Pawn_Enemy_C' ref from Metadata '/Game/Blueprints/Game/BP_Player_Character_Pawn_Child.PackageMetaData'
+[2015.04.21-18.01.50:990][486]LogSavePackage: Save=254.695633ms
+[2015.04.21-18.01.50:990][486]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/BP_Player_Character_Pawn_Enemy0B51359D419018B61DF8128FA4B257AB.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Blueprints/Game/BP_Player_Character_Pawn_Enemy.uasset'
+[2015.04.21-18.01.51:051][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.02.00:905][229]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_915.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_872.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.02:127][306]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy2_1170.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy2.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.02:127][306]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy2_1170.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_872.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.03:312][384]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy3_1565.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy3.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.03:312][384]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy3_1565.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy2.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.03:312][384]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy3_1565.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_872.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.04:346][450]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy4_1932.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy4.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.04:346][450]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy4_1932.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy3.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.04:346][450]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy4_1932.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy2.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.04:346][450]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy4_1932.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_872.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.07:520][668]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy5_2313.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy5.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.07:520][668]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy5_2313.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy4.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.07:520][668]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy5_2313.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy3.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.07:520][668]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy5_2313.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy2.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.07:520][668]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy5_2313.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_872.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.08:694][738]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy6_2666.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy6.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.08:694][738]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy6_2666.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy5.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.08:694][738]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy6_2666.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy4.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.08:694][738]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy6_2666.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy3.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.08:694][738]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy6_2666.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy2.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.08:694][738]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy6_2666.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_872.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.09:703][799]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy7_3131.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy7.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.09:703][799]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy7_3131.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy6.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.09:703][799]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy7_3131.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy5.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.09:703][799]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy7_3131.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy4.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.09:703][799]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy7_3131.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy3.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.09:703][799]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy7_3131.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy2.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.09:703][799]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy7_3131.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_872.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.10:790][867]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy8_3456.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy8.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.10:790][867]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy8_3456.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy7.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.10:790][867]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy8_3456.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy6.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.10:790][867]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy8_3456.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy5.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.10:790][867]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy8_3456.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy4.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.10:790][867]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy8_3456.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy3.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.10:790][867]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy8_3456.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy2.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.10:790][867]LogUObjectHash:Warning: Ambiguous search, could be AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy8_3456.CharacterMesh0.AB_Player_Character_C_59 or AB_Player_Character_C /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_872.CharacterMesh0.AB_Player_Character_C_59
+[2015.04.21-18.02.35:739][684]BlueprintLog: New page: Compile BP_Player_Character_Pawn
+[2015.04.21-18.02.36:570][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.02.36:571][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.04.21-18.02.36:571][684]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.04.21-18.02.36:750][684]BlueprintEditorCompileResults: Info [1492.17] Compile of BP_Player_Character_Pawn successful! [in 1,011 ms]
+[2015.04.21-18.02.59:136][885]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.21-18.02.59:142][885]LogPlayLevel: [PIE] Compiling AB_Player_Character before PIE...
+[2015.04.21-18.02.59:533][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.02.59:534][885]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.04.21-18.02.59:569][885]LogPlayLevel: PIE:  Blueprint regeneration took 433 ms (1 blueprints)
+[2015.04.21-18.02.59:570][885]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 21, 2015, 8:02:59 AM)
+[2015.04.21-18.02.59:597][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026769s)
+[2015.04.21-18.02.59:598][885]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2015.04.21-18.02.59:598][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.027583s)
+[2015.04.21-18.02.59:682][885]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.21-18.02.59:685][885]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.21-18.02.59:695][885]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.21-13.02.59
+[2015.04.21-18.02.59:701][885]LogWorld: Bringing up level for play took: 0.015448
+[2015.04.21-18.02.59:705][885]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.442
+[2015.04.21-18.03.00:968][982]LogBlueprintUserMessages: 101.907959
+[2015.04.21-18.03.16:401][489]LogBlueprintUserMessages: 126.641174
+[2015.04.21-18.03.29:007][709]LogBlueprintUserMessages: 350.700317
+[2015.04.21-18.03.38:154][599]LogBlueprintUserMessages: 387.936615
+[2015.04.21-18.03.49:944][756]LogBlueprintUserMessages: 259.004364
+[2015.04.21-18.04.01:029][832]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092A9451800
+[2015.04.21-18.04.39:094][765]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.04.39:095][765]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.04.21-18.04.41:179][765]LogSavePackage: Save=1845.435913ms
+[2015.04.21-18.04.41:179][765]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/ThirdPersonExampleMap31BA2B6F48D7F17287B3528C9F6E654A.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2015.04.21-18.04.41:243][765]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 2.055
+[2015.04.21-18.04.42:557][765]LogSavePackage: Save=1290.676758ms
+[2015.04.21-18.04.42:557][765]LogSavePackage: Moving '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/BP_Player_Character_Pawn31E800FB474ED85942F8C497DEB6E3F4.tmp' to '../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/Blueprints/Game/BP_Player_Character_Pawn.uasset'
+[2015.04.21-18.04.48:369][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-18.04.48:369][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.04.21-18.04.49:108][148]Cmd: QUIT_EDITOR
+[2015.04.21-18.04.49:294][148]LogExit: Preparing to exit.
+[2015.04.21-18.04.50:434][148]LogExit: Editor shut down
+[2015.04.21-18.04.50:434][148]LogExit: Transaction tracking system shut down
+[2015.04.21-18.04.50:436][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092D80711C0
+[2015.04.21-18.04.50:436][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092FE537600
+[2015.04.21-18.04.50:436][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092F57E2980
+[2015.04.21-18.04.50:438][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092ACA8B420
+[2015.04.21-18.04.50:439][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092A02B36A0
+[2015.04.21-18.04.50:439][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092D2CE8FE0
+[2015.04.21-18.04.50:439][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092DA5C9080
+[2015.04.21-18.04.50:716][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092DA5C98A0
+[2015.04.21-18.04.50:716][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092DAFF3920
+[2015.04.21-18.04.50:716][148]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092D58B0AE0
+[2015.04.21-18.04.50:716][148]LogExit: Object subsystem successfully closed.
+[2015.04.21-18.04.50:765][148]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.21-18.04.50:765][148]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.21-18.04.50:765][148]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.21-18.04.50:765][148]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.21-18.04.50:766][148]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.21-18.04.51:549][148]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.21-18.04.51:666][148]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.21-18.04.51:666][148]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.21-18.04.51:666][148]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.21-18.04.51:667][148]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.21-18.04.51:798][148]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.21-18.04.51:799][148]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.21-18.04.51:900][148]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.21-18.04.51:900][148]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.21-18.04.51:904][148]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.21-18.04.51:907][148]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.21-18.04.51:986][148]LogDerivedDataCache: Shutdown
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.21-18.04.51:986][148]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.21-18.04.51:987][148]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.21-18.04.51:987][148]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.21-18.04.51:987][148]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.21-18.04.51:991][148]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.21-18.04.51:991][148]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.21-18.04.51:991][148]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.21-18.04.51:991][148]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.21-18.04.51:991][148]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.21-18.04.51:991][148]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.21-18.04.51:991][148]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.21-18.04.51:991][148]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.21-18.04.51:991][148]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.21-18.04.51:992][148]LogExit: Exiting.
+[2015.04.21-18.04.51:996][148]Log file closed, 04/21/15 13:04:51
