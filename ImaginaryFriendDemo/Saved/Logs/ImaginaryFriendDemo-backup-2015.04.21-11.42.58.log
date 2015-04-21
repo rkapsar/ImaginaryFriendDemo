@@ -1,0 +1,662 @@
+﻿Log file open, 04/21/15 11:38:33
+LogInit:Display: Running engine for game: ImaginaryFriendDemo
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: E:/Unreal/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.21-16.38.33:132][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.21-16.38.33:185][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.21-16.38.33:194][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.21-16.38.33:201][  0]LogInit: Object subsystem initialized
+[2015.04.21-16.38.33:202][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.21-16.38.33:202][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-16.38.33:202][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.21-16.38.33:202][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-16.38.33:202][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.21-16.38.33:202][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.21-16.38.33:202][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.21-16.38.33:202][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.21-16.38.33:224][  0]LogInit: Computer: COMPY
+[2015.04.21-16.38.33:224][  0]LogInit: User: Nick
+[2015.04.21-16.38.33:224][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.21-16.38.33:224][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2015.04.21-16.38.33:224][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.04.21-16.38.33:225][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.21-16.38.33:225][  0]LogMemory: Process Physical Memory: 47.21 MB used, 47.21 MB peak
+[2015.04.21-16.38.33:225][  0]LogMemory: Process Virtual Memory: 25.27 MB used, 25.27 MB peak
+[2015.04.21-16.38.33:225][  0]LogMemory: Physical Memory: 4246.98 MB used, 16259.70 MB total
+[2015.04.21-16.38.33:225][  0]LogMemory: Virtual Memory: 284.96 MB used, 134217728.00 MB total
+[2015.04.21-16.38.33:235][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7900 Series (Feature Level 11_0)
+[2015.04.21-16.38.33:235][  0]LogD3D11RHI: Adapter has 3051MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 2 output[s]
+[2015.04.21-16.38.33:240][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.21-16.38.33:240][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 0 output[s]
+[2015.04.21-16.38.33:240][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.21-16.38.33:240][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.21-16.38.33:240][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.21-16.38.33:243][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.21-16.38.33:247][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.21-16.38.33:331][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.21-16.38.33:375][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.21-16.38.33:376][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (E:/Unreal/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.21-16.38.33:438][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.21-16.38.37:341][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-16.38.39:722][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-16.38.39:905][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.21-16.38.40:011][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.21-16.38.40:011][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.21-16.38.40:011][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.21-16.38.40:011][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.21-16.38.40:171][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.21-16.38.40:183][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Nick/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.21-16.38.48:474][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.21-16.38.48:474][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.21-16.38.54:370][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.21-16.38.54:887][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.21-16.39.15:308][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.21-16.39.16:566][  0]SourceControl: Info Source control is disabled
+[2015.04.21-16.39.16:578][  0]SourceControl: Info Source control is disabled
+[2015.04.21-16.39.16:578][  0]SourceControl: Info Source control is disabled
+[2015.04.21-16.39.16:578][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.21-16.39.16:578][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.21-16.39.16:585][  0]SourceControl: Info Source control is disabled
+[2015.04.21-16.39.17:929][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.21-16.39.17:929][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.04.21-16.39.18:889][  0]LogEngine: Initializing Engine...
+[2015.04.21-16.39.21:868][  0]LogInit: XAudio2 using 'Line Out (4- Scarlett 2i2 USB)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.21-16.39.21:897][  0]LogInit: FAudioDevice initialized.
+[2015.04.21-16.39.22:841][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.21-16.39.23:145][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Nick/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.21-16.39.23:148][  0]LogInit: Texture streaming: Enabled
+[2015.04.21-16.39.23:805][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.21-16.39.23:805][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.21-16.39.23:805][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.21-16.39.23:805][  0]LogAnalytics: SetUserId ae2fd81d40e74e933ac176aa65f19d69|a11a1d6788b14be38425ce267983457b|5433b200-1896-4b41-b217-14931c041df8
+[2015.04.21-16.39.23:816][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.21-16.39.24:029][  0]LogInit: Transaction tracking system initialized
+[2015.04.21-16.39.25:282][  0]BlueprintLog: New page: Editor Load
+[2015.04.21-16.39.25:440][  0]LogAssetRegistry: FAssetRegistry took 0.0348 seconds to start up
+[2015.04.21-16.39.25:440][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.21-16.39.35:149][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-16.39.36:930][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.21-16.39.38:156][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.21-16.39.38:157][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.21-16.39.38:252][  0]LogConsoleResponse:Display: 
+[2015.04.21-16.39.42:742][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.21-16.39.48:052][  0]SourceControl: Info Source control is disabled
+[2015.04.21-16.39.58:671][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/ImaginaryFriendDemo/ImaginaryFriendDemo/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.21-16.39.58:693][  0]LightingResults: New page: Lighting Build
+[2015.04.21-16.39.58:936][  0]MapCheck: New page: Map Check
+[2015.04.21-16.39.58:937][  0]LightingResults: New page: Lighting Build
+[2015.04.21-16.39.59:330][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE7166A520
+[2015.04.21-16.40.06:980][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.21-16.40.09:441][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage AM_Player_Death does not match the length stored in the asset, please resave the montage asset.
+[2015.04.21-16.40.09:442][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage AM_Player_Sprint_Attack does not match the length stored in the asset, please resave the montage asset.
+[2015.04.21-16.40.10:386][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:386][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:404][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:404][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:404][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:404][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:429][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:430][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:431][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:432][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:432][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:432][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:433][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:433][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:433][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:433][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:433][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:433][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:434][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:435][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:436][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:437][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:438][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:438][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:439][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:440][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:599][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:599][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:599][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:599][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:599][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:599][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:599][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:599][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:600][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:600][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:600][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:600][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:601][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:601][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:601][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:601][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:601][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:602][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:602][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:602][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:602][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:602][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:602][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:602][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:603][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:603][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:603][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:603][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:603][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:603][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:603][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:604][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:605][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:605][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:605][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:605][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:605][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:605][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:605][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:605][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:607][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:607][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:607][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:607][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:607][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:607][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:607][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:607][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:608][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:608][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:608][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:608][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:609][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:609][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:609][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:609][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:610][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:610][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:610][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:610][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:610][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:610][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:610][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:610][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:611][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:611][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:611][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:611][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:612][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:612][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:612][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:612][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:613][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:613][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:613][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:613][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:613][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:613][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:613][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:613][  0]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.10:695][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.21-16.40.11:575][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.21-16.40.11:588][  0]Cmd: MAP CHECKDEP
+[2015.04.21-16.40.11:598][  0]MapCheck: New page: ThirdPersonExampleMap - Apr 21, 2015, 6:40:11 AM
+[2015.04.21-16.40.11:715][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 126.939ms to complete.
+[2015.04.21-16.40.11:715][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 13.083
+[2015.04.21-16.40.13:587][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_d64_0///////STATCAT_Advanced//// old //STATGROUP_Threads//SplashScreenThread///Thread_10dc_0///////STATCAT_Advanced////
+[2015.04.21-16.40.13:587][  0]LogCollectionManager: Loaded 0 collections in 0.001607 seconds
+[2015.04.21-16.40.13:629][  0]LogContentBrowser: Native class hierarchy populated in 0.0419 seconds. Added 1696 classes and 261 folders.
+[2015.04.21-16.40.13:878][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2015.04.21-16.40.15:112][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.21-16.40.15:180][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.21-16.40.15:255][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.21-16.40.15:343][  0]LogLoad: Full Startup: 105.81 seconds (BP compile: 3.35 seconds)
+[2015.04.21-16.40.15:416][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Game'
+[2015.04.21-16.40.16:101][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2015.04.21-16.40.16:979][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x584 (Frame:4).
+[2015.04.21-16.40.17:111][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.21-16.40.17:587][  1]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.17:670][  1]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for SkeletalMeshComponent_2
+[2015.04.21-16.40.18:562][  5]LogAssetRegistry: Asset discovery search completed in 53.1569 seconds
+[2015.04.21-16.40.22:325][ 99]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.04.21-16.40.22:981][ 99]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2015.04.21-16.40.23:286][ 99]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2015.04.21-16.40.24:126][ 99]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.21-16.40.24:354][ 99]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.21-16.40.33:499][832]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.21-16.40.33:500][832]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 21, 2015, 6:40:33 AM)
+[2015.04.21-16.40.33:523][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023388s)
+[2015.04.21-16.40.33:524][832]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2015.04.21-16.40.33:524][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024312s)
+[2015.04.21-16.40.33:631][832]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.21-16.40.33:652][832]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:656][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:657][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:658][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:659][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:660][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:661][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:662][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:662][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:662][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:662][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:662][832]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.21-11.40.33
+[2015.04.21-16.40.33:746][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:746][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:746][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:746][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:747][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:747][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:747][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:747][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:747][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:747][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:747][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:747][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:748][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:749][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:750][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:750][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:750][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:750][832]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.40.33:750][832]LogWorld: Bringing up level for play took: 0.097986
+[2015.04.21-16.40.33:864][832]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.399
+[2015.04.21-16.40.56:094][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-16.40.56:095][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.21-16.40.56:095][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.04.21-16.40.56:273][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE2BD6DE40
+[2015.04.21-16.40.56:274][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE2886BF60
+[2015.04.21-16.41.00:855][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.00:856][883]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:952][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:952][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:952][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:952][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:952][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:952][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:952][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:952][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:953][ 68]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_10:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_140.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-16.41.03:953][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:953][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:953][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:953][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:953][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:953][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:953][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:953][ 68]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.03:954][ 68]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_10:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_140.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-16.41.06:312][245]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:312][245]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:312][245]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:312][245]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:343][246]LogRenderer:Warning: Reallocating scene render targets to support 1208x736 (Frame:6204).
+[2015.04.21-16.41.06:344][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:344][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:344][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:344][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:344][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:344][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:344][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:344][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:345][246]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_10:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_155.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-16.41.06:345][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:345][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:345][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:345][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:345][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:345][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:345][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:346][246]LogSkinnedMeshComp:Warning: GetSocketByName(): No SkeletalMesh for CharacterMesh0
+[2015.04.21-16.41.06:346][246]LogPrimitiveComponent:Warning: CreateDynamicMaterialInstance on /Engine/Transient.World_10:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_155.CharacterMesh0: Material index 0 is invalid.
+[2015.04.21-16.41.11:541][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-16.41.11:541][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.04.21-16.41.38:831][540]LogActorComponent: ReregisterComponent: (/Game/Blueprints/Game/BP_Player_Character_Pawn_Enemy.Default__SKEL_BP_Player_Character_Pawn_Enemy_C:CharacterMesh0) Not currently registered. Aborting.
+[2015.04.21-16.41.41:269][715]BlueprintLog: New page: Compile BP_Player_Character_Pawn_Enemy
+[2015.04.21-16.41.41:620][715]BlueprintEditorCompileResults: Info [0192.09] Compile of BP_Player_Character_Pawn_Enemy successful! [in 351 ms]
+[2015.04.21-16.41.57:218][809]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.21-16.41.57:259][809]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-16.41.57:259][809]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.04.21-16.41.57:262][809]LogPlayLevel: [PIE] Compiling BP_Player_Character_Pawn before PIE...
+[2015.04.21-16.41.58:033][809]LogPlayLevel: [PIE] Compiling BP_Player_Character_Pawn_Enemy before PIE...
+[2015.04.21-16.41.58:118][809]LogPlayLevel: [PIE] Compiling AB_Player_Character before PIE...
+[2015.04.21-16.41.58:425][809]LogPlayLevel: PIE:  Blueprint regeneration took 1206 ms (3 blueprints)
+[2015.04.21-16.41.58:425][809]PIE: New page: PIE session: ThirdPersonExampleMap (Apr 21, 2015, 6:41:58 AM)
+[2015.04.21-16.41.58:451][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025245s)
+[2015.04.21-16.41.58:452][809]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2015.04.21-16.41.58:452][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026186s)
+[2015.04.21-16.41.58:490][809]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2015.04.21-16.41.58:493][809]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.04.21-16.41.58:505][809]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2015.04.21-11.41.58
+[2015.04.21-16.41.58:510][809]LogWorld: Bringing up level for play took: 0.017194
+[2015.04.21-16.41.58:515][809]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.251
+[2015.04.21-16.42.01:363][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-16.42.01:429][994]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EE2A57B560
+[2015.04.21-16.42.10:697][679]LogEditorTransaction: Undo Modify Component(s)
+[2015.04.21-16.42.12:419][776]LogEditorTransaction: Undo Modify Component(s)
+[2015.04.21-16.42.12:456][776]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.CharMoveComp) Component already registered.
+[2015.04.21-16.42.12:459][776]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.CharacterMesh0) Component already registered.
+[2015.04.21-16.42.12:467][776]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_5.CharMoveComp) Component already registered.
+[2015.04.21-16.42.12:468][776]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_5.CharacterMesh0) Component already registered.
+[2015.04.21-16.42.12:806][776]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.12:806][776]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.12:806][776]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.12:806][776]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.12:806][776]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.12:807][776]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.12:807][776]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.13:533][825]LogEditorTransaction: Undo Modify Component(s)
+[2015.04.21-16.42.13:580][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.Arrow) Component already registered.
+[2015.04.21-16.42.13:580][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_6.CharMoveComp) Component already registered.
+[2015.04.21-16.42.13:580][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_7.Arrow) Component already registered.
+[2015.04.21-16.42.13:580][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_7.CharMoveComp) Component already registered.
+[2015.04.21-16.42.13:580][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.CharMoveComp) Component already registered.
+[2015.04.21-16.42.13:581][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_6.Arrow) Component already registered.
+[2015.04.21-16.42.13:584][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_9.Arrow) Component already registered.
+[2015.04.21-16.42.13:584][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_9.CharMoveComp) Component already registered.
+[2015.04.21-16.42.13:585][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_3.CharMoveComp) Component already registered.
+[2015.04.21-16.42.13:585][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_2.Arrow) Component already registered.
+[2015.04.21-16.42.13:585][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_2.CharMoveComp) Component already registered.
+[2015.04.21-16.42.13:585][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_3.Arrow) Component already registered.
+[2015.04.21-16.42.13:585][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_1.CharMoveComp) Component already registered.
+[2015.04.21-16.42.13:585][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_4.Arrow) Component already registered.
+[2015.04.21-16.42.13:585][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_4.CharMoveComp) Component already registered.
+[2015.04.21-16.42.13:586][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_5.Arrow) Component already registered.
+[2015.04.21-16.42.13:586][825]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_5.CharMoveComp) Component already registered.
+[2015.04.21-16.42.13:908][825]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.13:908][825]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.13:908][825]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.13:908][825]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.13:908][825]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.13:909][825]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.13:909][825]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.15:141][923]LogEditorTransaction: Undo Modify Component(s)
+[2015.04.21-16.42.15:188][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.Arrow) Component already registered.
+[2015.04.21-16.42.15:188][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_6.CharMoveComp) Component already registered.
+[2015.04.21-16.42.15:189][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_7.Arrow) Component already registered.
+[2015.04.21-16.42.15:189][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_7.CharMoveComp) Component already registered.
+[2015.04.21-16.42.15:189][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.CharMoveComp) Component already registered.
+[2015.04.21-16.42.15:189][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_6.Arrow) Component already registered.
+[2015.04.21-16.42.15:192][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_9.Arrow) Component already registered.
+[2015.04.21-16.42.15:192][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_9.CharMoveComp) Component already registered.
+[2015.04.21-16.42.15:192][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_3.CharMoveComp) Component already registered.
+[2015.04.21-16.42.15:192][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_2.Arrow) Component already registered.
+[2015.04.21-16.42.15:193][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_2.CharMoveComp) Component already registered.
+[2015.04.21-16.42.15:193][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_3.Arrow) Component already registered.
+[2015.04.21-16.42.15:193][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_1.CharMoveComp) Component already registered.
+[2015.04.21-16.42.15:193][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_4.Arrow) Component already registered.
+[2015.04.21-16.42.15:193][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_4.CharMoveComp) Component already registered.
+[2015.04.21-16.42.15:193][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_5.Arrow) Component already registered.
+[2015.04.21-16.42.15:193][923]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_5.CharMoveComp) Component already registered.
+[2015.04.21-16.42.15:522][923]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.15:522][923]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.15:522][923]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.15:522][923]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.15:522][923]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.15:523][923]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.15:523][923]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.16:271][976]LogEditorTransaction: Undo Edit Skeletal Mesh
+[2015.04.21-16.42.16:304][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_1.CollisionCylinder) Component already registered.
+[2015.04.21-16.42.16:305][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_3.CollisionCylinder) Component already registered.
+[2015.04.21-16.42.16:309][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_0.Arrow) Component already registered.
+[2015.04.21-16.42.16:309][976]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_155.CollisionCylinder) Trying to register component with IsPendingKill() == true. Aborting.
+[2015.04.21-16.42.16:309][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:309][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:309][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:309][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:309][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:310][976]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2015.04.21-16.42.16:329][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_7.Arrow) Component already registered.
+[2015.04.21-16.42.16:329][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_7.CharacterMesh0) Component already registered.
+[2015.04.21-16.42.16:329][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_7.CharMoveComp) Component already registered.
+[2015.04.21-16.42.16:330][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.Arrow) Component already registered.
+[2015.04.21-16.42.16:330][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_6.CharacterMesh0) Component already registered.
+[2015.04.21-16.42.16:330][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_6.CharMoveComp) Component already registered.
+[2015.04.21-16.42.16:331][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_6.Arrow) Component already registered.
+[2015.04.21-16.42.16:331][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.CharMoveComp) Component already registered.
+[2015.04.21-16.42.16:331][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_9.CharacterMesh0) Component already registered.
+[2015.04.21-16.42.16:332][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_9.CharMoveComp) Component already registered.
+[2015.04.21-16.42.16:332][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_9.Arrow) Component already registered.
+[2015.04.21-16.42.16:332][976]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_8.CharacterMesh0) Component already registered.
+[2015.04.21-16.42.16:689][976]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.16:689][976]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.16:689][976]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.16:689][976]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.16:689][976]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.16:690][976]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.16:690][976]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.19:507][211]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.19:507][211]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.19:507][211]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.19:508][211]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.19:508][211]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.19:508][211]LogUObjectHash:Warning: Ambiguous search, could be SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0 or SkeletalMeshComponent /Game/Blueprints/Game/BP_Player_Character_Pawn.Default__BP_Player_Character_Pawn_C:CharacterMesh0
+[2015.04.21-16.42.23:281][483]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.21-16.42.23:335][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.21-16.42.23:335][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.04.21-16.42.23:339][483]LogPlayLevel: [PIE] Compiling BP_Player_Character_Pawn before PIE...
+[2015.04.21-16.42.23:930][483]LogUObjectHash:Warning: Ambiguous search, could be REINST_BP_Player_Character_Pawn_Enemy_C_207 /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_0 or REINST_BP_Player_Character_Pawn_Enemy_C_170 /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Player_Character_Pawn_Enemy_C_0
+[2015.04.2
